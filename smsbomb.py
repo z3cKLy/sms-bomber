@@ -14,12 +14,12 @@ for attribute in dir(SendSms):
 while 1:
     system("cls||clear")
     print("""{}
- _____        _                                _   _       _   
-|  ___|__  __| | ___  _ __ __ _    ___  _ __  | \ | | ___ | |_ 
-| |_ / _ \/ _` |/ _ \| '__/ _` |  / _ \| '__| |  \| |/ _ \| __|
-|  _|  __/ (_| | (_) | | | (_| | | (_) | |    | |\  | (_) | |_ 
-|_|  \___|\__,_|\___/|_|  \__,_|  \___/|_|    |_| \_|\___/ \__|
-Sms: {}           {}by {}Fedora or Not\n  
+-----------------    -------------    --    --   --          --      --
+            ----     --               --  --     --            --   --
+        ----         -------          ----       --             -- --
+    ----             --               --  --     ---------       --
+-----------------    -------------    --   ---   ---------       --
+Sms: {}           {}by {}Z3cKLy\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
